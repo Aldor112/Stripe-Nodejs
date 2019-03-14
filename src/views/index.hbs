@@ -1,0 +1,29 @@
+<div class="row">
+    <div class="col-md-4 mx-auto">
+        <div class="card">
+            <img src="https://endimages.s3.amazonaws.com/cache/d2/e3/d2e3416c659eccfc5db844dc9ca88afe.jpg" alt="" class="card-img-top">
+            <div class="card-body">
+                <h2>30 $</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis in natus amet? Asperiores, laboriosam doloremque!</p>
+            </div>
+            <div class="card-footer">
+    <form action="/checkout" method="POST">
+  <script
+    src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+    data-key="pk_test_DDmPhHvChU7P4K6xOcTkLHDU"
+    data-amount="3000"
+    data-name="Store"
+    data-description="Widget"
+    data-image="https://stripe.com/img/documentation/checkout/marketplace.png"
+    data-locale="auto">
+  </script>
+  <script>
+      document.getElementsByClassName('stripe-button-el')[0].style.display='none';
+  </script>
+  <button class="btn btn-dark btn-block">Buy <i class="fas fa-shopping-cart"></i></button>
+</form>
+                
+            </div>
+        </div>
+    </div>
+</div>
